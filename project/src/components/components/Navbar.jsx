@@ -48,7 +48,7 @@ export function Navbar() {
         <MenuIcon className="block text-purple-400 md:hidden " />
         </SheetTrigger>
         <SheetContent>
-        <nav className="flex w-full flex-col items-center justify-center space-x-4">
+        <nav className="flex w-full flex-col items-center justify-center gap-4">
           {[{loc:"Home",a:"#"}, {loc:"About",a:"#About"}, {loc:"Projects",a:"#Project"}, {loc:"Contact",a:"#Contact"}].map((item, i) => (
             <motion.div
               key={item}
