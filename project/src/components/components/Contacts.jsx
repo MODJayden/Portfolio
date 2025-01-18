@@ -1,7 +1,7 @@
-'use client'
+"use client";
 
-import { motion } from "framer-motion"
-import { Mail, Github, Linkedin } from 'lucide-react'
+import { motion } from "framer-motion";
+import { Mail, Github, Linkedin } from "lucide-react";
 
 export function Contact() {
   return (
@@ -22,7 +22,8 @@ export function Contact() {
           className="max-w-md mx-auto space-y-8"
         >
           <p className="text-center text-gray-600 dark:text-gray-400">
-            I'm always open to new opportunities and collaborations. Feel free to reach out to me through any of the following channels:
+            I'm always open to new opportunities and collaborations. Feel free
+            to reach out to me through any of the following channels:
           </p>
           <div className="flex flex-col items-center space-y-4">
             <a
@@ -50,13 +51,21 @@ export function Contact() {
               <Linkedin className="w-5 h-5" />
               <span>LinkedIn Profile</span>
             </a>
+
+            <a
+              target="_blank"
+              href="https://wa.me/233257479336"
+              className="flex items-center space-x-2 text-purple-600 dark:text-purple-400 hover:underline"
+            >
+              WhatsApp Us
+            </a>
           </div>
           <p className="text-center text-gray-600 dark:text-gray-400">
-            I'm looking forward to hearing from you and discussing how we can work together!
+            I'm looking forward to hearing from you and discussing how we can
+            work together!
           </p>
         </motion.div>
       </div>
     </section>
-  )
+  );
 }
-
